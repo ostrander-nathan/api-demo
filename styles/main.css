@@ -1,0 +1,15 @@
+body h1 {
+  color: blue;
+  text-align: center; }
+
+.search-bar {
+  width: 50%;
+  background-color: pink;
+  text-align: center; }
+
+#output img {
+  width: 100px;
+  height: 100px;
+  margin: 5px;
+  display: inline-block;
+  border-radius: 100%; }

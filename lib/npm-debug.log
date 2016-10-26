@@ -1,0 +1,111 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'grunt-sass',
+1 verbose cli   '--save-devcd',
+1 verbose cli   '..' ]
+2 info using npm@2.15.8
+3 info using node@v4.4.7
+4 verbose install initial load of /Users/nathanostrander/workspace/api-demo/lib/package.json
+5 warn package.json lib@1.0.0 No description
+6 warn package.json lib@1.0.0 No repository field.
+7 warn package.json lib@1.0.0 No README data
+8 verbose installManyTop reading scoped package data from /Users/nathanostrander/workspace/api-demo/lib/node_modules/grunt/package.json
+9 verbose installManyTop reading scoped package data from /Users/nathanostrander/workspace/api-demo/lib/node_modules/grunt-contrib-jshint/package.json
+10 verbose installManyTop reading scoped package data from /Users/nathanostrander/workspace/api-demo/lib/node_modules/grunt-contrib-nodeunit/package.json
+11 verbose installManyTop reading scoped package data from /Users/nathanostrander/workspace/api-demo/lib/node_modules/grunt-contrib-uglify/package.json
+12 verbose installManyTop reading scoped package data from /Users/nathanostrander/workspace/api-demo/lib/node_modules/grunt-contrib-watch/package.json
+13 verbose installManyTop reading scoped package data from /Users/nathanostrander/workspace/api-demo/lib/node_modules/grunt-sass/package.json
+14 verbose installManyTop reading scoped package data from /Users/nathanostrander/workspace/api-demo/lib/node_modules/matchdep/package.json
+15 verbose readDependencies loading dependencies from /Users/nathanostrander/workspace/api-demo/lib/package.json
+16 verbose install grunt-sass is installed as 1.2.1
+17 silly cache add args [ 'grunt-sass', null ]
+18 verbose cache add spec grunt-sass
+19 silly cache add args [ '..', null ]
+20 verbose cache add spec ..
+21 silly cache add parsed spec Result {
+21 silly cache add   raw: 'grunt-sass',
+21 silly cache add   scope: null,
+21 silly cache add   name: 'grunt-sass',
+21 silly cache add   rawSpec: '',
+21 silly cache add   spec: 'latest',
+21 silly cache add   type: 'tag' }
+22 silly addNamed grunt-sass@latest
+23 verbose addNamed "latest" is being treated as a dist-tag for grunt-sass
+24 info addNameTag [ 'grunt-sass', 'latest' ]
+25 silly mapToRegistry name grunt-sass
+26 silly mapToRegistry using default registry
+27 silly mapToRegistry registry https://registry.npmjs.org/
+28 silly mapToRegistry data Result {
+28 silly mapToRegistry   raw: 'grunt-sass',
+28 silly mapToRegistry   scope: null,
+28 silly mapToRegistry   name: 'grunt-sass',
+28 silly mapToRegistry   rawSpec: '',
+28 silly mapToRegistry   spec: 'latest',
+28 silly mapToRegistry   type: 'tag' }
+29 silly mapToRegistry uri https://registry.npmjs.org/grunt-sass
+30 verbose addNameTag registry:https://registry.npmjs.org/grunt-sass not in flight; fetching
+31 silly cache add parsed spec Result {
+31 silly cache add   raw: '..',
+31 silly cache add   scope: null,
+31 silly cache add   name: null,
+31 silly cache add   rawSpec: '..',
+31 silly cache add   spec: '/Users/nathanostrander/workspace/api-demo',
+31 silly cache add   type: 'local' }
+32 error addLocal Could not install /Users/nathanostrander/workspace/api-demo
+33 verbose request uri https://registry.npmjs.org/grunt-sass
+34 verbose request no auth needed
+35 info attempt registry request try #1 at 12:49:17 PM
+36 verbose request id a14b2c05737e8877
+37 verbose etag "2GUN9YTO2Y9G7ZZYEIZ3PZ976"
+38 http request GET https://registry.npmjs.org/grunt-sass
+39 http 304 https://registry.npmjs.org/grunt-sass
+40 verbose headers { date: 'Wed, 26 Oct 2016 17:49:18 GMT',
+40 verbose headers   via: '1.1 varnish',
+40 verbose headers   'cache-control': 'max-age=300',
+40 verbose headers   etag: '"2GUN9YTO2Y9G7ZZYEIZ3PZ976"',
+40 verbose headers   age: '0',
+40 verbose headers   connection: 'keep-alive',
+40 verbose headers   'x-served-by': 'cache-atl6234-ATL',
+40 verbose headers   'x-cache': 'HIT',
+40 verbose headers   'x-cache-hits': '1',
+40 verbose headers   'x-timer': 'S1477504158.928271,VS0,VE76',
+40 verbose headers   vary: 'Accept-Encoding' }
+41 silly get cb [ 304,
+41 silly get   { date: 'Wed, 26 Oct 2016 17:49:18 GMT',
+41 silly get     via: '1.1 varnish',
+41 silly get     'cache-control': 'max-age=300',
+41 silly get     etag: '"2GUN9YTO2Y9G7ZZYEIZ3PZ976"',
+41 silly get     age: '0',
+41 silly get     connection: 'keep-alive',
+41 silly get     'x-served-by': 'cache-atl6234-ATL',
+41 silly get     'x-cache': 'HIT',
+41 silly get     'x-cache-hits': '1',
+41 silly get     'x-timer': 'S1477504158.928271,VS0,VE76',
+41 silly get     vary: 'Accept-Encoding' } ]
+42 verbose etag https://registry.npmjs.org/grunt-sass from cache
+43 verbose get saving grunt-sass to /Users/nathanostrander/.npm/registry.npmjs.org/grunt-sass/.cache.json
+44 verbose correctMkdir /Users/nathanostrander/.npm correctMkdir not in flight; initializing
+45 silly addNameTag next cb for grunt-sass with tag latest
+46 silly addNamed grunt-sass@1.2.1
+47 verbose addNamed "1.2.1" is a plain semver version for grunt-sass
+48 silly cache afterAdd grunt-sass@1.2.1
+49 verbose afterAdd /Users/nathanostrander/.npm/grunt-sass/1.2.1/package/package.json not in flight; writing
+50 verbose correctMkdir /Users/nathanostrander/.npm correctMkdir not in flight; initializing
+51 verbose afterAdd /Users/nathanostrander/.npm/grunt-sass/1.2.1/package/package.json written
+52 verbose stack Error: EISDIR: illegal operation on a directory, read
+52 verbose stack     at Error (native)
+53 verbose cwd /Users/nathanostrander/workspace/api-demo/lib
+54 error Darwin 15.6.0
+55 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "grunt-sass" "--save-devcd" ".."
+56 error node v4.4.7
+57 error npm  v2.15.8
+58 error code EISDIR
+59 error errno -21
+60 error syscall read
+61 error eisdir EISDIR: illegal operation on a directory, read
+61 error eisdir This is most likely not a problem with npm itself
+61 error eisdir and is related to npm not being able to find a package.json in
+61 error eisdir a package you are trying to install.
+62 verbose exit [ -21, true ]
